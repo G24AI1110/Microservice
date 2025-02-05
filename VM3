@@ -12,5 +12,5 @@ def greet():
     return {"message": "Hello from VM 3!"}
 
 if _name_ == '_main_':
-    app.run(host='0.0.0.0', port=5003)
+    app.run(host='192.168.32.18', port=5003)
 
