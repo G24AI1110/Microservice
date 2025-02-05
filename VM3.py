@@ -8,4 +8,4 @@ def greet():
     return {"message": "Hello from VM 3!"}
 
 if __name__ == '__main__':
-    app.run(host='192.168.32.18', port=5003)
+    app.run(host='192.168.32.202', port=5003)
