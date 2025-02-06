@@ -10,4 +10,4 @@ def get_random_number():
     return {"random_number": random_number}
 
 if __name__ == '__main__':
-    app.run(host='192.168.31.202', port=5002)
+    app.run(host='192.168.31.18', port=5002)
