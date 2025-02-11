@@ -7,4 +7,4 @@ def greet():
     return jsonify({"message": "Hello from VM 3!"})  # Use jsonify()
 
 if __name__ == '__main__':
-    app.run(host='192.168.145.25', port=5003, debug=True)
+    app.run(host='192.168.164.25', port=5003, debug=True)
